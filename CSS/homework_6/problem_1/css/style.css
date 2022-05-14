@@ -1,0 +1,35 @@
+.gradient{
+    width: 500px;
+    height: 500px;
+
+    /* Տիգրան ջան ես բոլոր տարբերակները մի դիվ ի վրա եմ արել, ու քոմենթել եմ հերթով*/
+
+    /* background: linear-gradient( 45deg, red,orange,yellow,green,blue,indigo,violet ); */
+    /*....rainbow colors*/
+
+    /* background: linear-gradient(25deg,yellow 25%, black 25%,black 50%,yellow 50%,yellow 75%,black 75%); */
+
+   /* background: radial-gradient(ellipse,rgb(222, 11, 11),rgb(237, 122, 6)); */
+
+   /* background: radial-gradient(circle,rgb(222, 11, 11),rgb(11, 7, 2)); */
+
+   /* background: radial-gradient(circle closest-side, rgb(53, 40, 40),rgb(237, 122, 6)); */
+
+   /* background: radial-gradient(circle closest-corner, rgb(53, 40, 40),rgb(237, 122, 6)); */
+
+   /* background: radial-gradient(circle farthest-side, rgb(40, 50, 53),rgb(6, 237, 25)); */
+
+   /* background: radial-gradient(circle farthest-corner, rgb(40, 50, 53),rgb(6, 237, 25)); */
+
+   /* background: repeating-radial-gradient(circle farthest-side, rgba(40, 50, 53, 0.249),rgb(6, 237, 25)); */
+
+   /* background: repeating-radial-gradient(circle, yellow 40%, rgb(233, 3, 3) 50%); */
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin: 0 auto;
+    background-image: conic-gradient(red 100deg,blue 200deg,orange 300deg);
+}

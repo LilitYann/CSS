@@ -1,0 +1,43 @@
+/* Keyword values
+
+overflow-wrap: normal;
+overflow-wrap: break-word;
+overflow-wrap: anywhere;
+
+/* Global values */
+
+/* overflow-wrap: inherit;
+overflow-wrap: initial;
+overflow-wrap: revert;
+overflow-wrap: revert-layer;
+overflow-wrap: unset; */
+
+.armenia{
+    width: 200px;
+    border: 3px solid lightcoral;
+    white-space: nowrap;
+}
+.armenia1{
+    width: 200px;
+    border: 3px solid lightcoral;
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: clip; */
+    text-overflow: ellipsis;
+}
+
+.armenia2{
+    width: 150px;
+    border: 3px solid lightcoral;
+    word-break: keep-all;
+    /* writing-mode: horizontal-tb; */
+    writing-mode: vertical-lr;
+}
+
+.armenia3{
+    width: 150px;
+    border: 3px solid lightcoral;
+    word-break: break-all;
+    writing-mode: vertical-rl;
+    /*word-break: break-all; It is used to break the words at any character to prevent overflow.*/
+}

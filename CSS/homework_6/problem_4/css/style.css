@@ -1,0 +1,56 @@
+/* ․․․․․․․․․․․․․․․ animations ․․․․․․․․․․․․․ */
+#armenian_mountains{
+    padding: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: arial;
+    color: rgb(222, 215, 207);
+    animation: armenian_mountains 7s infinite alternate;
+}
+
+@keyframes armenian_mountains{
+    from{
+        color: rgb(239, 236, 242);
+        font-size: 25px;
+        background: rgb(54, 52, 52);
+        transform: scale(0.5);
+    }
+    to{
+        color: rgb(61, 59, 62);
+        background: rgb(112, 107, 107);
+        font-size: 15px;
+    }
+}
+
+/* ...................second animation................... */
+
+#color_effects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lavender;
+    font-size: 40px;
+    letter-spacing: 10px;
+    width: 500px;
+    height: 500px;
+    background: rgb(238, 6, 6);
+    margin: 30px;
+    border-radius: 50%;
+    animation: color_effects 5s infinite;
+   
+}
+
+@keyframes color_effects{
+    20%{
+        background: rgb(207, 11, 11);
+    }
+    30%{
+        background: rgb(14, 14, 192);
+    }
+    40%{
+        background: orangered;
+        transform: rotate(360deg); /*սա որ ահնում ենք չի գլորվում ուղիղ գծով գնում է ՝ մարջինի շնորհիվ*/
+        margin-left: 400px;
+    }
+}
